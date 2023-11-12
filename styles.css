@@ -1,0 +1,95 @@
+body {
+    background-color:aquamarine;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    font-size: large;
+    background-color: #4c90af;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.1em;
+    text-decoration: underline;
+}
+
+nav {
+    text-decoration: underline;
+    display: flex;
+    justify-content: flex-end; /* Mudei para o canto direito */
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: underline;
+    font-size: 26PX;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+select, input {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+       position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h3 {
+    color: #1100f8; /* Exemplo de cor de texto diferente para os títulos nesta página */
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    
+}
+
+h2 {
+    font-size: 34px;
+   
+}
+
+.container {
+    
+    text-align: center;
+    margin-top: 0px; /* Ajuste conforme necessário */
+  }
+
+  button {
+    font-size: 26px;
+  }
+
+  

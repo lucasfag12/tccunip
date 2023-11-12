@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Plataforma de Voluntariado</title>
+</head>
+<body>
+
+    <header>
+        <h1>Plataforma de Voluntariado</h1>
+        <p>Facilitando a conexão entre voluntários e organizações.</p>
+        
+        <nav>
+            <a href="quemsomos.html">Quem Somos</a>
+            <a href="cadastros.html">Voluntários e Organizações</a>
+            <a href="avaliacao.html">Avaliações</a>
+        </nav>
+    
+    </header>
+    
+    <section id="signup">
+        <h2>Inscreva-se</h2>
+        <h3>Seja parte da mudança! Junte-se a nós na Plataforma de Voluntariado para fazer a diferença. Seja você um indivíduo em busca de oportunidades significativas de voluntariado ou uma organização à procura de apoio essencial, inscreva-se agora! Conecte-se, engaje-se e seja parte ativa na construção de um futuro melhor. Juntos, podemos criar impacto e transformar vidas. Inscreva-se hoje e comece a fazer a diferença!</h3>
+        <img src="img/voluntariado.png"
+        width="350px">
+        <form action="processar_inscricao.php" method="post">
+            <label for="tipo_usuario">Escolha o tipo de usuário:</label>
+            <select name="tipo_usuario" id="tipo_usuario">
+                <option value="voluntario">Voluntário</option>
+                <option value="organizacao">Organização</option>
+            </select>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Inscrever-se">
+        </form>
+    </section>
+
+    <section id="oportunidades">
+        <h2>Oportunidades de Voluntariado</h2>
+        <p>Confira as últimas oportunidades disponíveis.</p>
+        <label for="tipo_usuario">Escolha o tipo de Voluntariado:</label>
+            <select name="tipo_usuario" id="tipo_usuario">
+                <option value="voluntario">Ajuda a Idosos</option>
+                <option value="voluntario">Ajuda a Crianças</option>
+                <option value="voluntario">Ajuda a Desabrigados</option>
+                <option value="voluntario">Limpezas nas Cidades</option>        
+                <option value="organizacao">Apoio Educacional</option>
+            </select>
+    </section>
+    <div class="container">
+        <button type="submit" class="buscar-btn">Buscar</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Plataforma de Voluntariado</p>
+    </footer>
+
+</body>
+</html>

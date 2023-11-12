@@ -1,0 +1,40 @@
+body {
+  
+    background-color:aquamarine; /* Exemplo de cor de fundo diferente para esta página */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4em;
+    
+    
+}
+
+.container {
+    max-width: 600px; /* Exemplo de largura diferente para o conteúdo nesta página */
+    font-size: large;
+    text-align: center;
+}
+
+h2 {
+    color: #000000; /* Exemplo de cor de texto diferente para os títulos nesta página */
+    font-size: large;
+    text-align: center;
+    
+}
+
+.container {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    display: contents;
+    
+    
+}
+
+nav a {
+    text-decoration: underline;
+    font-size: 22PX;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
